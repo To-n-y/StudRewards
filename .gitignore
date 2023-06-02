@@ -5,8 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-# database
-*.db
+
+#database
+.db
 
 # Distribution / packaging
 .Python
@@ -46,6 +47,7 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
+*/cache
 nosetests.xml
 coverage.xml
 *.cover
@@ -104,7 +106,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-
+.env
 .venv
 env/
 venv/
@@ -122,6 +124,8 @@ venv.bak/
 # mkdocs documentation
 /site
 
+temp.py
+
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -129,3 +133,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PyCharm
+.idea

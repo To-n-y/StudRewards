@@ -1,1 +1,1 @@
-"# StudRewards" 
+# StudRewards

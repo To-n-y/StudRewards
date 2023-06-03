@@ -5,7 +5,7 @@ class Student(models.Model):
     lastName = models.CharField(max_length=20)
     firstName = models.CharField(max_length=20)
     dateOfBirth = models.DateField()
-    email = models.CharField(max_length=30)
+    email = models.CharField(max_length=30, unique=True)
     password = models.CharField(max_length=60)
     course = models.IntegerField()
 
@@ -14,7 +14,7 @@ class Teacher(models.Model):
     lastName = models.CharField(max_length=20)
     firstName = models.CharField(max_length=20)
     dateOfBirth = models.DateField()
-    email = models.CharField(max_length=30)
+    email = models.CharField(max_length=30, unique=True)
     password = models.CharField(max_length=60)
 
 

@@ -8,7 +8,7 @@ __pycache__/
 
 #database
 .db
-
+migrations
 # Distribution / packaging
 .Python
 build/
